@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #f8fafc;
+    transition: background 0.3s ease;
+}
+body.dark-mode .nav {
+    background-color: #334155;
+}
+.nav a {
+    text-decoration: none;
+    color: #374151;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background 0.2s, transform 0.2s ease;
+}
+.nav a:hover {
+    background: #e5e7eb;
+    transform: scale(1.05);
+}
+body.dark-mode .nav a {
+    color: #f8fafc;
+}
+.nav .auth-links

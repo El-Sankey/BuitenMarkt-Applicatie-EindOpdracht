@@ -1,0 +1,17 @@
+:root {
+    --bg-light: #ffffff;
+    --bg-dark: #1e293b;
+    --text-light: #1f2937;
+    --text-dark: #f8fafc;
+    --accent: #3b82f6;
+}
+body {
+    background-color: var(--bg-light);
+    color: var(--text-light);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+body-dark-mode{
+    background-color: var(--bg-dark);
+    color: var(--text-dark);
+    margin-top: 5rem;
+}
