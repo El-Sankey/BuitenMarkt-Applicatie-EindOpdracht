@@ -8,7 +8,7 @@ import SignIn from './Pages/Sign-in.jsx';
 import SignUp from './Pages/Sign-up.jsx';
 import AdminPage from './Pages/AdminLogin.jsx';
 import NotFoundPage from './Pages/Not_found_404.jsx';
-import { AuthContext } from './Components/AuthContext.jsx';
+import AuthContext from './Components/AuthContext.jsx';
 
 function App() {
   const { isAuth } = useContext(AuthContext);

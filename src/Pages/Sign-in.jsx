@@ -1,7 +1,7 @@
 import './AdminLogin.css';
 import React, {useContext, useState} from 'react';
 import {Link} from 'react-router-dom';
-import {AuthContext} from "../Components/AuthContext.jsx";
+import AuthContext from './AdminLogin.jsx';
 
 
 function SignIn() {

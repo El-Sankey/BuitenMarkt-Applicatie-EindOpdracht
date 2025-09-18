@@ -2,7 +2,8 @@ import "./AdminLogin.css";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-export default function AdminLogin() {
+
+export function AdminLogin() {
 	const [form, setForm] = useState({ username: "", password: "" });
 	const [error, setError] = useState("");
 	const navigate = useNavigate();
@@ -43,3 +44,4 @@ export default function AdminLogin() {
 		</form>
 	);
 }
+export default AdminLogin;

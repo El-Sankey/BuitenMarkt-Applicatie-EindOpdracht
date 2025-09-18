@@ -1,7 +1,7 @@
 import './Navbar.css';
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import { AuthContext } from './AuthContext.jsx';
+import AuthContext from './AuthContext.jsx';
 
 function Navbar({DarkMode, darkMode}) {
 	const { isAuth, logout } = useContext(AuthContext);

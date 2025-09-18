@@ -15,6 +15,10 @@ function Profile() {
 			<section>
 				<h2>Strikt geheime profiel-content</h2>
 				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem id libero provident! Accusantium at autem
+					cumque, esse eum, fugiat ipsa ipsam quia quis ratione repudiandae sapiente sequi sit tempora voluptates.
+					Accusantium aperiam asperiores, beatae dolor eius error expedita laboriosam maiores minima mollitia nisi
+					pariatur quaerat quam ratione reiciendis rem similique unde veritatis vitae voluptatum.
 
 				</p>
 			</section>
